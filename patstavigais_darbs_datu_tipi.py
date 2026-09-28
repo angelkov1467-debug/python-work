@@ -88,12 +88,96 @@ print(vārdnīca)
 #Izvada vārdnīcas atslēgas
 print(vārdnīca.keys()) 
 #Izvada vārdnīcas vērtības
-print(vārdnīca.values())
-
- 
+print(vārdnīca.values()) 
 
 
 
 
 
 
+
+
+
+
+
+#Risinajums!
+"""
+1. Numbers & Strings (5 min)
+Definē divus skaitļu mainīgos:
+vienu int
+vienu float
+
+Aprēķini šo skaitļu summu.
+
+Izvadi rezultātu divos veidos:
+vienkārši ar print()
+izmantojot teksta paskaidrojumu (string + skaitļi) (piemēram, print("Vārds:",vards))
+
+Definē teksta mainīgo (string).
+
+Izvadi:
+teksta garumu
+pirmo simbolu
+tekstu apgrieztā secībā
+
+"""
+skaitlis1 = 5
+skaitlis2 = 5.5
+
+print(skaitlis1+skaitlis2)
+print("Skaitļu summa:", skaitlis1+skaitlis2)
+
+teksts = "Varavīksne"
+print(len(teksts))
+print(teksts[0])
+print(teksts[::-1])
+"""
+"""
+# 2.saraksti 5 min
+#Izveido sarakstu (list) ar vismaz 5 elementiem
+#(drīkst būt dažādi datu tipi).
+
+#Izvadi:
+#visu sarakstu
+#pirmo elementu
+#pēdējo elementu
+
+#Pievieno sarakstam vienu jaunu elementu.
+#Nomaini vienu esošu elementu sarakstā.
+
+#Izvadi saraksta elementu skaitu.
+"""
+"""
+saraksts = [1,4,5,"Arbūzs",[5.7]]
+print(saraksts)
+print(saraksts[0])
+print(saraksts[-1])
+saraksts.append(10)
+saraksts[1]=33
+print(saraksts)
+print(len(saraksts))
+
+"""
+3. Dictionary (5 min)
+Izveido vārdnīcu (dictionary) ar informāciju par sevi, piemēram:
+
+vārds
+vecums
+pilsēta
+
+Izvadi katru vērtību atsevišķi, izmantojot atslēgas.
+
+Pievieno vārdnīcai jaunu atslēgu.
+
+Izmanto un izvada:
+.keys()
+.values()
+
+"""
+maniDati = {"vards":"Anna","vecums":5,"pilseta":"Vecpiebalga"}
+print(maniDati["vards"])
+print(maniDati["vecums"])
+print(maniDati["pilseta"])
+maniDati["skola"]="Vecpiebalgas pirmsskolas izglītības iestāde"
+print(maniDati.keys())
+print(maniDati.values())
