@@ -16,7 +16,7 @@ Izvadi tikai atslēgas vecums vērtību
 """
 
 cilvekaDati = {"vards":"Janis", "vecums": 25, "izglītība": "augstākā"}#Atslēgu nosaukumus neikļaujam mīkstinājuma zīme
-print(cilvekaDati)
+print(cilvekaDati) 
 #Izvadi vārdnīcas atslēgas un vērtības
 print(cilvekaDati.keys())
 print(cilvekaDati.values())

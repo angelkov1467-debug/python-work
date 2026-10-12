@@ -650,7 +650,7 @@ print(Mans_profils)
 #
 # 7. Man vēl nav skaidrs:
 #
-# _________________________________________________
+# Viss ir ok :D
 
 
 
