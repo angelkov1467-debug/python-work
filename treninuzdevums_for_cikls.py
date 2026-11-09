@@ -48,9 +48,17 @@ Padoms: izmanto skaitītāja mainīgo.
 #teksta izvade pa simboliem
 teksts = "Programmēšana"
 
+
+simbolu_skaits = 0
 for simbols in teksts:
     print(simbols)
+    simbolu_skaits += 1
 
+
+
+
+for simbols in teksts:
+    print(simbols)
 
 
 
@@ -74,11 +82,10 @@ for elements in numbers:
     print(elements)
 
 
-for numbers in range(1, 13):
-    if numbers > 5:
-        print(numbers, "ir lielaks par 5")
-    else:
-        print(numbers, "nav lielaks par 5")
+for elements in numbers:
+    if elements > 5:
+        print(elements, "ir lielaks par 5")
+    
 
 
 
