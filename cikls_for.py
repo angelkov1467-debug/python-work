@@ -58,7 +58,7 @@ else:
 
 
 #skaitļu izvade, izmantotjot funkciju range()
-for skaitlis in range(1,10):
+for skaitlis in range(1,11):
     print(skaitlis)
 
 #para skaitļu izvade, izmantojot range()
