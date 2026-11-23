@@ -137,13 +137,22 @@ print("Tev ir", vecums, "gadi")  #izvada mainigo ar tekstu
 
 
 # a) Nosauc vismaz 3 kļūdas un paskaidro tās
+
+#1)pirms input vajaga likt int
+
+#2)kad raksta ar if un else vajaga print rakstit no malas
+
+#3)pec else vajaga likt semikolu
+
+
+
 # b) Uzraksti labotu kodu
 
 skaitlis = int(input("Ievadi skaitli: "))
 if skaitlis > 10: 
   print("Mazāks par 10")
-else
-   print("Lielāk vai vienāds ar 10")
+else:
+  print("Lielāk vai vienāds ar 10")
 
 
 
@@ -161,6 +170,15 @@ else
 # funkciju izsauc
 
 # izdrukā rezultātu
+
+
+
+def kvadrats(skaitlis):
+  return skaitlis*skaitlis
+print(kvadrats(5))
+
+
+
 
 # 10. uzdevums (6 punkti)
 # Specifikācija:
@@ -182,3 +200,30 @@ else
 # bez sintakses kļūdām
 
 # ar pareizu zarošanos
+
+
+atzime = int(input("Ievadi savu atzīmi:")) #izveidojam mainigo lai mes varetu ievadit savu atzimi un parbaudit
+if atzime >= 90:   #ja atzime ir lielaka vai vienada ar 90 izvada labi
+  print("Izcili")
+if atzime >= 70:    #ja atzime ir lielaka vai vienada ar 70 izvada labi
+  print("Labi")
+else:
+  print("Jāuzlabo")   #ja atzime ir mazaka par 70 tad izvada jauzlabo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
